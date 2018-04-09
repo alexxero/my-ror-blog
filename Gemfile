@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-  gem "letter_opener", :group => :development
+  gem 'letter_opener', :group => :development
 end
 
 group :development do
@@ -52,4 +52,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'bootstrap'
 gem 'simple_form'
-gem "paperclip", "~> 5.0.0"
+gem 'paperclip', '~> 5.0.0'
